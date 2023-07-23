@@ -1,0 +1,82 @@
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.card-inferior{
+
+    border-radius: 20px;
+    width: 2rem; /* Can be in percentage also. */
+    height: 2rem;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+}
+
+.card-superior{
+    border-radius: 20px;
+}
+
+.luz{
+    border-radius: 100%;
+    width: calc(100% - 3px);
+    height: calc(100% - 3px);
+    border: 3px solid black;
+}
+
+#L1{
+    background-color: #EA000A;
+    color: white;
+}
+
+#L2{
+    background-color: #FFAE00;
+    color: black;
+}
+
+#L3{
+    background-color: #67210A;
+    color: white;
+}
+
+#L4{
+    background-color: #1F2583;
+    color: white;
+}
+
+#L4A{
+    background-color: #0079C1;
+    color: white;
+}
+
+#L5{
+    background-color: #00AA65;
+    color: white;
+}
+
+#L6{
+    background-color: #953994;
+    color: white;
+}
+
+.luz-verde{
+    background-color: #008F39;
+}
+
+.luz-roja{
+    background-color: red;
+}
+
