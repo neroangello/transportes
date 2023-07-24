@@ -58,7 +58,7 @@ class Linea{
   
   }
 
-
+  
   export const Resumen = () => {
     const [todos, setTodos] = useState([]);
     const [input, setInput] = useState("");
