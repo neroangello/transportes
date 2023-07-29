@@ -211,11 +211,7 @@ export const Busqueda = () => {
                     </Then>
                     <Else>
                         <table className="tabla-recorridos">
-                            <thead>
-                                <tr>
-                                    <td>Detalle de búsqueda</td>
-                                </tr>    
-                            </thead>
+                            
                             <tbody>
                                 <tr>
                                     <td>Ingrese un paradero para obtener su información.</td>
