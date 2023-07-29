@@ -9,7 +9,7 @@ table tr:nth-child(odd) {
 }
 
 table tbody tr:hover {
-    background-color: #f00;
+    background-color: #ddd;
     cursor: pointer;
 }
 
@@ -17,6 +17,71 @@ table {
     border: 1px solid black;
 }
 
-table tbody tr td {
+/*table tbody tr td {
     border: 1px solid black;
+}*/
+
+.tabla-mensaje{
+    width: 75%;
+}
+
+.button {
+    transition-duration: 0.4s;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: .25rem;
+
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+
+}
+  
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.div-busqueda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1px;
+    margin-bottom: 1em;
+}
+
+.campo-busqueda{
+    width: 20rem;
+    margin-right: 1em;
+}
+
+.tabla-recorridos{
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.img-icono{
+    width: 3em;
+    vertical-align:middle
+}
+
+.img-bus{
+    width: 1.2em;
+    vertical-align:middle
+}
+
+.img-action{
+    width: 1.2em;
+    vertical-align:middle;
+    margin-left: 0.5em;
+}
+
+.encabezado-paradero{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.datos-paradero{
+    margin-bottom: 1em;
 }

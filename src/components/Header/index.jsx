@@ -4,7 +4,7 @@ export const Header = () => {
 
     return(
         <header >
-            Haeder
+            Header
         </header>
     )
 
