@@ -1,14 +1,9 @@
-/*import React, { useState, useEffect } from "react";
-import axios from "axios";*/
 import './App.css'
 import { Busqueda } from './components/Busqueda';
 
 import { Resumen } from "./components/Resumen";
 
 function App() {
- /*const [todos, setTodos] = useState([]);
- const [input, setInput] = useState("");*/
-
 
 return (
   <div>
